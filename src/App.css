@@ -1,0 +1,64 @@
+.searchField {
+  background: transparent;
+  border: 1px solid #333;
+}
+
+.searchField:focus {
+  background: transparent;
+  border: 1px solid #333;
+  outline: none;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+.center {
+  margin-top: 6%;
+}
+
+.logo-name {
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.capitalise {
+  font-size: 40px;
+  color: rgb(194, 88, 88);
+}
+
+.container {
+  backdrop-filter: blur(10px);
+  color: #333;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+#myVideo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.sub-heading {
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.fs-6 {
+  font-size: 0.75rem !important;
+}
+
+.moon-star{
+  font-size: xxx-large;
+}
+
+.card{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px;
+}
+
+
