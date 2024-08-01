@@ -17,7 +17,7 @@ const WeeklyForecast = ({ data }) => {
       <div className="d-flex flex-column  mt-3 gap-2 fs-7">
         {data &&
           data.map((item, i) => (
-            <div className="card bg-transparent p-2">
+            <div className="card border-light bg-transparent p-2">
               <Row>
                 <Col>
                   <span className="fw-bolder"> {getDay(item.date)}</span>

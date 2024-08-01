@@ -7,7 +7,7 @@ const TodaysForecast = ({ data }) => {
       <div className="sub-heading">Today's Forecast</div>
       <div className="d-flex flex-wrap justify-content-evenly m-2">
         {data && data?.map((item, index) => (
-          <div className="card bg-transparent p-3 px-4 mt-1" key={index}>
+          <div className="card bg-transparent border-light p-3 px-4 mt-1" key={index}>
             <div className="fs-6">{item.time}</div>
             <div>
               <img
